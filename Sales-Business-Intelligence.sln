@@ -20,6 +20,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB_Stage", "DB_Staging\DB_S
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DM_Sales", "DW_Sales\DM_Sales.sqlproj", "{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_Sales", "SSAS\SSAS_Sales.dwproj", "{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,15 @@ Global
 		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Debug|Any CPU.ActiveCfg = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Debug|Any CPU.Build.0 = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Debug|Any CPU.Deploy.0 = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Development|Any CPU.ActiveCfg = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Development|Any CPU.Build.0 = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Development|Any CPU.Deploy.0 = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Release|Any CPU.ActiveCfg = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Release|Any CPU.Build.0 = Development
+		{FBA7E3FE-AD0C-4F53-95BB-DCEE9B72F520}.Release|Any CPU.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
