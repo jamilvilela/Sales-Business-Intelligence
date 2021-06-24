@@ -1,0 +1,51 @@
+
+WITH
+member [Measures].[Previous Period Sale] as
+		([Dim Date].[Year].PREVMEMBER,[Measures].[Sale Value]),
+		FORMAT_STRING = '#,##0.00'
+
+member [Measures].[Sales Growth] as
+		([Measures].[Sale Value] - [Measures].[Previous Period Sale]
+		), FORMAT_STRING = '#,##0.00'
+
+member [Measures].[Percent Growth] as
+		IIF([Measures].[Previous Period Sale] = 0, NULL,
+		([Measures].[Sales Growth] / [Measures].[Previous Period Sale])
+		), FORMAT_STRING = '#,##0.00%'
+
+member [Measures].[Sales Condition] as
+  case
+	when  [Measures].[Percent Growth] >= 0.3  then 'Excelent'
+	when  [Measures].[Percent Growth] >= 0.15 then 'Good'
+	when  [Measures].[Percent Growth] >= 0    then 'No pain no gain'
+	else  'Loss'
+  end
+select 
+  {
+  [Measures].[Sale Value],
+  [Measures].[Previous Period Sale],
+  [Measures].[Sales Growth],
+  [Measures].[Percent Growth],
+  [Measures].[Sales Condition]} on columns,
+  (
+    nonempty([Dim Branch].[Name City].members)
+    ,nonempty([Dim Date].[Year].members)
+   ) on rows
+from [Sales_Goals]
+;
+
+with 
+member [Measures].[Perc From Parent] as
+	   iif(([Dim Date].[Hierarchy].CURRENTMEMBER.PARENT, [Measures].[Sale Value])=0,1,
+	   [Measures].[Sale Value] /
+	   ([Dim Date].[Hierarchy].CURRENTMEMBER.PARENT, [Measures].[Sale Value])), 
+	   FORMAT_STRING = 'Percent'
+select 
+  {[Measures].[Quantity Sold],
+  [Measures].[Unit Value], 
+  [Measures].[Sale Value],
+  [Measures].[Perc From Parent]} on columns,
+ 
+    (nonempty([Dim Manager].[Manager Name].ALLMEMBERS, [Dim Manager].[Enddate]),
+	nonempty([Dim Date].[Hierarchy].[Year])) on rows
+from [Sales_Goals]

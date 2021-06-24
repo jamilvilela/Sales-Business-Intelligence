@@ -24,6 +24,17 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_Sales", "SSAS\SSAS_Sal
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_Sales", "SSRS\SSRS_Sales.rptproj", "{0860C503-E650-4B51-9EE7-9281256A8CFF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerBI", "PowerBI", "{86398071-C200-4EDF-99C6-2F830B3683A5}"
+	ProjectSection(SolutionItems) = preProject
+		PowerBI\Sales_Goals_dashboard.pbix = PowerBI\Sales_Goals_dashboard.pbix
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{F835538F-2826-4A85-AB7B-16D5E5DE5667}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\mdx_sales.mdx = SQL\mdx_sales.mdx
+		SQL\qry_sales.sql = SQL\qry_sales.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
