@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ds_SSAS_Sales">
+  <ConnectionProperties>
+    <Extension>OLEDB-MD</Extension>
+    <ConnectString>Data Source=LAPTOP-JAMIL\MSSQL;Initial Catalog=DAS_Sales_Cube</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>210160ad-3542-48ca-9ef4-1f2cfc1ab903</DataSourceID>
+</RptDataSource>
