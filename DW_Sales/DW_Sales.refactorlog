@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="da2e24d7-5143-49c7-815d-e761dd8ac430" ChangeDateTime="11/27/2020 02:25:08">
+    <Property Name="ElementName" Value="[sales].[seller].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[seller]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seller_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3aa5b3f3-8f1b-4d6d-ba67-36c162844db1" ChangeDateTime="11/27/2020 02:27:13">
+    <Property Name="ElementName" Value="[sales].[category]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[dim_category]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a62e7ffd-de4a-4933-80f9-7288f720895d" ChangeDateTime="11/27/2020 02:30:33">
+    <Property Name="ElementName" Value="[sales].[customer]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[dim_customer]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b06beeb9-76e3-4232-a86e-f473494db6bc" ChangeDateTime="11/27/2020 02:30:49">
+    <Property Name="ElementName" Value="[sales].[manager]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[dim_manager]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ffbaebe0-368f-4e87-8692-3a9619f49fa5" ChangeDateTime="11/27/2020 02:31:11">
+    <Property Name="ElementName" Value="[sales].[product]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="dim_product" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7700c60f-928e-46a6-ae02-f82f3a03bd85" ChangeDateTime="11/27/2020 02:31:34">
+    <Property Name="ElementName" Value="[sales].[seller]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="dim_seller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1f0001b-0510-40d9-91ce-003e4edeb771" ChangeDateTime="11/27/2020 02:32:51">
+    <Property Name="ElementName" Value="[sales].[sales]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[sales]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="fact_sales" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dea65fb7-4415-4713-9da3-2150f9c8d6fb" ChangeDateTime="12/06/2020 23:28:50">
+    <Property Name="ElementName" Value="[sales].[dim_date].[DateKey]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[dim_date]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_Date" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="59dd2d44-ff15-49d6-a3ee-cf7f1ecc60b2" ChangeDateTime="12/12/2020 15:34:44">
+    <Property Name="ElementName" Value="[sales].[dim_date].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[dim_date]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sk_Date" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="43ee14dc-ae8a-43a6-8701-f66ac8c1806c" ChangeDateTime="02/24/2021 04:44:04">
+    <Property Name="ElementName" Value="[dbo].[fact_goals].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[fact_goals]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_goal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f74df7e0-2705-45c3-b83f-559e61e403a0" ChangeDateTime="02/24/2021 04:55:23">
+    <Property Name="ElementName" Value="[dbo].[fact_goals].[Id_goal]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[fact_goals]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sk_goal" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d41ee69d-32e5-4d5f-a49f-2c63e21bb70b" ChangeDateTime="02/26/2021 03:36:16">
+    <Property Name="ElementName" Value="[dbo].[fact_goals]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="sales" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d6b7653-331d-4e9f-82f9-a2bef45913e6" ChangeDateTime="06/05/2021 22:50:54">
+    <Property Name="ElementName" Value="[sales].[dim_branch].[name_branch]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[dim_branch]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="branch_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6067e718-4e88-4dd8-b763-3a29d8d5b115" ChangeDateTime="06/05/2021 22:51:11">
+    <Property Name="ElementName" Value="[sales].[dim_branch].[name_city]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[dim_branch]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="city_name" />
+  </Operation>
+</Operations>

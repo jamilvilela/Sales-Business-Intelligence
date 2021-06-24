@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Move Schema" Key="1a8cac84-1a8c-49de-8eb2-9b1088432ca5" ChangeDateTime="02/23/2021 00:56:55">
+    <Property Name="ElementName" Value="[dbo].[RAW_Goals]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="sales" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="63d1fdb2-c571-40a2-b74d-3adf90472a5d" ChangeDateTime="06/05/2021 21:58:05">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[seller_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SellerName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="db782c33-9ba6-4be0-a87c-23d911f28dca" ChangeDateTime="06/05/2021 21:58:29">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_seller]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDSeller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a7ea0c5-37df-4817-9419-f90a3d37e69a" ChangeDateTime="06/05/2021 21:58:36">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[sale_date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SaleDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9a405f0-57ee-4c23-89c4-4da5dd915fbb" ChangeDateTime="06/05/2021 21:59:07">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[expiration_date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExpirationDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dc91b92f-d1b4-4c44-a992-8efd5bafd83f" ChangeDateTime="06/05/2021 21:59:15">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[order_number]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OrderNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6f0cf03c-13fd-4fe5-b90e-45ab9a45aa07" ChangeDateTime="06/05/2021 21:59:24">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[manager_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ManagerName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5dcc262f-5113-4658-9d6b-774a0906d36c" ChangeDateTime="06/05/2021 21:59:29">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_branch]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDBranch" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="da8ebfbc-c300-4f19-a404-6ff54b05aaaa" ChangeDateTime="06/05/2021 21:59:41">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[branch_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BranchName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7ca1afe1-3800-405c-a766-cb813487f7e1" ChangeDateTime="06/05/2021 21:59:59">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[branch_city_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BranchCityName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dba792f6-7fea-4fe6-906a-7d554075d4de" ChangeDateTime="06/05/2021 22:01:15">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_branch_city]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BranchCityCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f569cd4d-d952-40ad-af5c-0b80b6c698c7" ChangeDateTime="06/05/2021 22:07:24">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_product]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDProduct" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="660f6228-2573-4905-8ad7-6b13002ccfdd" ChangeDateTime="06/05/2021 22:07:33">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[product_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39708797-4550-457b-8e69-08cdff70ab0a" ChangeDateTime="06/05/2021 22:07:44">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_category]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDCategory" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a567a0c7-9b9b-4a31-ab10-e0e6c1c28b26" ChangeDateTime="06/05/2021 22:09:06">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[category_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CategoryName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7bd32ae9-d61a-41f8-8e05-6475ecc0355d" ChangeDateTime="06/05/2021 22:09:14">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_subcategory]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDSubcategory" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d897db56-0d15-4038-b8a6-72e24e1bfbb8" ChangeDateTime="06/05/2021 22:09:21">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[subcategory_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubcategoryName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a123da11-bf07-4a54-a0e9-46d3f70aaebd" ChangeDateTime="06/05/2021 22:10:21">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[cost_price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" CostPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="75cc4272-ab2c-4fa3-95ce-b63f576f6e79" ChangeDateTime="06/05/2021 22:11:06">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[product_description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="30962f0a-409d-48f7-9413-b59420201711" ChangeDateTime="06/05/2021 22:11:26">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[sale_price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" SellPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87a32ac2-30d5-4509-953d-3c3bc4c14815" ChangeDateTime="06/05/2021 22:11:33">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[margin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" Margin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="17671b57-fec0-474f-b479-3e9cd06bc9bb" ChangeDateTime="06/05/2021 22:11:46">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[margin_percent]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" MarginPercet" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8811f492-e41d-4a1e-bb2d-4cb993cd3c9f" ChangeDateTime="06/05/2021 22:11:53">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_customer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDCustomer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea6fac5c-c67d-4b3e-9dde-bf6941c5364c" ChangeDateTime="06/05/2021 22:12:00">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[customer_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2082651e-4f79-4369-884c-54e5e1d27e3e" ChangeDateTime="06/05/2021 22:12:26">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_customer_city]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerCityCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1c812b3f-5155-43be-a3f7-a7e06904340f" ChangeDateTime="06/05/2021 22:14:12">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[customer_city_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerCityName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="646af92f-1c41-485c-9987-d47b78d9a21a" ChangeDateTime="06/05/2021 22:15:17">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[unit_price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" UnitPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0574f0fb-e6af-4994-9200-89d7d17eb10b" ChangeDateTime="06/05/2021 22:15:23">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[quantity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Quantity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="992c9ef2-5672-461a-a34b-6eecf4032e34" ChangeDateTime="06/05/2021 22:15:50">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[sale_total_price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" SellTotal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="672b5352-8a12-4e27-bbe6-4a5498c1b427" ChangeDateTime="06/05/2021 22:16:47">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[sale_discount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" Discount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="396b4531-8185-44bf-a0dc-3a8231c58e17" ChangeDateTime="06/05/2021 22:16:59">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[discount_percent]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" DiscountPercent" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="843bd770-80c0-48cc-b13b-0ac3ff09dfbc" ChangeDateTime="06/05/2021 22:17:06">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[payment_total]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" Payment" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bbd65d89-8e4d-4a47-894c-4f806d1f9566" ChangeDateTime="06/05/2021 22:17:29">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[payment_date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PaymentDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="917b996e-88a3-41aa-9321-a01810705a09" ChangeDateTime="06/05/2021 22:17:41">
+    <Property Name="ElementName" Value="[sales].[RAW_Sales].[id_manager]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sales].[RAW_Sales]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IDManager" />
+  </Operation>
+</Operations>

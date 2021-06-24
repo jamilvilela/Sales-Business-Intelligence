@@ -16,13 +16,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSource", "DataSource", 
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Sales", "SSIS\SSIS_Sales.dtproj", "{3EE982A3-E4AA-449C-B890-B1FECA469D9C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB_Stage", "DB_Staging\DB_Stage.sqlproj", "{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DM_Sales", "DW_Sales\DM_Sales.sqlproj", "{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Default.ActiveCfg = Development
-		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Default.Build.0 = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Debug|Any CPU.ActiveCfg = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Debug|Any CPU.Build.0 = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Any CPU.ActiveCfg = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Any CPU.Build.0 = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Release|Any CPU.ActiveCfg = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Release|Any CPU.Build.0 = Development
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D911B2-AC45-4ABF-87D2-ADB65F6FC89F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B20CF7-374E-497D-940E-EC7EAFA70BBA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
