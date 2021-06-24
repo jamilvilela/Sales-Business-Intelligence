@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DB_Stage"
+  DTS:DTSID="{A19D8945-CCF6-4326-A823-0DE3907DE37D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=LAPTOP-JAMIL\MSSQL;Initial Catalog=DB_Stage;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{A19D8945-CCF6-4326-A823-0DE3907DE37D}DB_Staging;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

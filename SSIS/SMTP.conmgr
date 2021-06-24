@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SMTP"
+  DTS:DTSID="{9A4AD2B4-2807-4EC8-9CFF-2EF272D3C399}"
+  DTS:CreationName="SMTP">
+  <DTS:PropertyExpression
+    DTS:Name="SmtpServer">@[$Project::SMTPConnectionManager_SmtpServer]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <SmtpConnectionManager
+      ConnectionString="SmtpServer=smtp.gmail.com;UseWindowsAuthentication=False;EnableSsl=False;"
+      ConnectByProxy="True" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -14,7 +14,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSource", "DataSource", 
 		DataSource\Sales.xlsx = DataSource\Sales.xlsx
 	EndProjectSection
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Sales", "SSIS\SSIS_Sales.dtproj", "{3EE982A3-E4AA-449C-B890-B1FECA469D9C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Default.ActiveCfg = Development
+		{3EE982A3-E4AA-449C-B890-B1FECA469D9C}.Development|Default.Build.0 = Development
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
