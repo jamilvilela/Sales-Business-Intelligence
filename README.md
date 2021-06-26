@@ -43,5 +43,17 @@ Have see some pictures bellow.
 ## Screenshots
 
 ![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/Data%20source.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/Datawarehouse%20-%20ER%20diagram.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSIS%20-%20Staging%20-%20Control%20Flow.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSIS%20-%20Staging%20-%20Data%20flow.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSIS%20-%20Loading%20-%20Control%20Flow.PNG
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSIS%20-%20Loading%20-%20Dimension.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSIS%20-%20Loading%20-%20Fact%20table.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSAS%20-%20Cube%20structure.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSAS%20-%20Calculations.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSAS%20-%20KPI.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSRS%20-%20Reports.PNG)
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSRS%20-%20Report%20-%20MDX%20query.PNG)
+
 
   
