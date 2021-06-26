@@ -3,10 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{9E68A15E-CC56-49C8-A5DA-C0EC4D248047}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{9E68A15E-CC56-49C8-A5DA-C0EC4D248047}"
 	ProjectSection(SolutionItems) = preProject
+		Images\dashboard.PNG = Images\dashboard.PNG
+		Images\Datawarehouse - ER diagram.PNG = Images\Datawarehouse - ER diagram.PNG
 		Requirements\GenericCompany_Logo.PNG = Requirements\GenericCompany_Logo.PNG
-		Requirements\Requirements.pdf = Requirements\Requirements.pdf
+		Images\Power BI - Dashboard.PNG = Images\Power BI - Dashboard.PNG
+		Images\SSAS - Calculations.PNG = Images\SSAS - Calculations.PNG
+		Images\SSAS - Cube structure.PNG = Images\SSAS - Cube structure.PNG
+		Images\SSAS - KPI.PNG = Images\SSAS - KPI.PNG
+		Images\SSIS - Loading - Control Flow.PNG = Images\SSIS - Loading - Control Flow.PNG
+		Images\SSIS - Loading - Dimension.PNG = Images\SSIS - Loading - Dimension.PNG
+		Images\SSIS - Loading - Fact table.PNG = Images\SSIS - Loading - Fact table.PNG
+		Images\SSIS - Staging - Control Flow.PNG = Images\SSIS - Staging - Control Flow.PNG
+		Images\SSIS - Staging - Data flow.PNG = Images\SSIS - Staging - Data flow.PNG
+		Images\SSRS - Report - MDX query.PNG = Images\SSRS - Report - MDX query.PNG
+		Images\SSRS - Reports.PNG = Images\SSRS - Reports.PNG
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSource", "DataSource", "{77E2393B-8132-435C-92CC-FF6680ECA8BA}"
