@@ -1,15 +1,19 @@
 
 # Sales and Goals - Business Intelligence
 
+
 Business Intelligence project that was built using Microsoft SQL BI tools.
 It's a project developed by myself just for trainning.
 
 ![Logo](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/Power%20BI%20-%20Dashboard.PNG)
-  
+
+
+
 ## Used By
 
 This project was built just for learning and trainning ;)
 Have see some pictures bellow.
+    
     
 ## Plataforms and Tools
 
