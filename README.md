@@ -12,7 +12,7 @@ It's a project developed by myself just for trainning.
 ## Used By
 
 This project was built just for learning and trainning ;)
-Have see some pictures bellow.
+Take a look some pictures bellow.
     
     
 ## Plataforms and Tools
@@ -58,6 +58,4 @@ Have see some pictures bellow.
 ![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSAS%20-%20KPI.PNG)
 ![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSRS%20-%20Reports.PNG)
 ![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/SSRS%20-%20Report%20-%20MDX%20query.PNG)
-
-
-  
+![App Screenshot](https://github.com/jamilvilela/Sales-Business-Intelligence/blob/master/Images/Power%20BI%20-%20Dashboard.PNG)
