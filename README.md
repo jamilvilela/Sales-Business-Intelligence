@@ -11,7 +11,7 @@ It's a project developed by myself just for trainning.
 
 ## Used By
 
-This project was built just for learning and trainning ;)
+This project was built just for learning and practicing ;)
 Take a look some pictures bellow.
     
     
